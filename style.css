@@ -1,0 +1,74 @@
+head,body
+{
+    background-color:white;
+    color:black;
+    font-family: sans-serif;
+}
+#left,#centre,#right
+{
+    float: left;
+    width: 33%;
+}
+#one,#two,#three,#four,#five
+{
+    padding: 50px 0px;
+    background-color: white;
+    border:3px solid #242424;
+    border-radius: 200px;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#login{
+width: 50%;
+float:left;
+padding: 50px 0px;
+background-color: white;
+border:3px solid #242424;
+border-radius: 75px;
+margin: 10px;
+color: black;
+text-align: center;
+width: auto;
+height: auto;
+}
+
+a,a:visited {
+    color: black;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+a:hover,a:active,a:focus {
+    color:blueviolet;
+  }
+
+H1{
+  font-size: 50px;
+  margin: 10px;
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+
+H3{
+  text-decoration: none;
+}
+
+input[type=text], input[type=password],[type=button] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: white;
+  border:0.5px dashed #242424;
+  border-radius: 200px;
+}
+
+input[type=button]{
+background-color: black;
+color:white;
+}
