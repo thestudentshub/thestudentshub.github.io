@@ -9,10 +9,10 @@ return false;
 }
 else{
 attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
+alert("You have "+attempt+" attempt's left;");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
-alert ('Contact deven.dattani@outlook.com to find out your username and password!')    
+alert ('Contact thestudenthubhelp@gmail.com to find out your username and password!')    
 document.getElementById("username").disabled = true;
 document.getElementById("password").disabled = true;
 document.getElementById("submit").disabled = true;
